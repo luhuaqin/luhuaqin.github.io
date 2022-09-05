@@ -14,7 +14,7 @@
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="luhuaqin">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -168,6 +168,66 @@
 	</div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-哈希表" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2022/09/05/%E5%93%88%E5%B8%8C%E8%A1%A8/" class="article-date">
+  	<time datetime="2022-09-05T00:42:33.000Z" itemprop="datePublished">2022-09-05</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2022/09/05/%E5%93%88%E5%B8%8C%E8%A1%A8/">
+        哈希表
+        
+      </a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="哈希表"><a href="#哈希表" class="headerlink" title="哈希表"></a>哈希表</h2><p><img src="/'%E5%93%88%E5%B8%8C%E8%A1%A8'" alt="图解"></p>
+<h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p>哈希表的结构就是数组，但是它特别之处在于下标值的一种变换，这种变换我们称之为哈希函数，通过哈希函数可以的带hashCode<br>哈希化：将大数字转化为数组范围内下标的过程<br>哈希函数：通常我们将单词转换为大数字，大数字再进行哈希化的代码实现放在函数中，这个函数我们称之为哈希函数。<br>哈希表：将哈希化的数据插入到这个数组，对整个结构的封装，称之为一个哈希表</p>
+<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p>优势:<br>1、可以提供非常快速的插入-删除-查找操作<br>2、可达大欧算法中的O(1)等级<br>3、速度比树快，基本可以瞬间查找到想要的元素<br>4、相对于树来说编码要容易很多<br>不足:<br>1、哈希表的数据没有顺序，所以不能以一种固定的方式来遍历其中的元素（如大小）<br>2、通常情况下，哈希表的key值是不允许重复的，不能放置相同的key来保存相同的元素</p>
+<h3 id="冲突"><a href="#冲突" class="headerlink" title="冲突"></a>冲突</h3><p>通常，当有一个哈希化之后的值存储在一个key中后，还有一个值哈希化之后的key值与已存储的key值相同，这种现象称之为冲突。</p>
+<h3 id="解决冲突的方式"><a href="#解决冲突的方式" class="headerlink" title="解决冲突的方式"></a>解决冲突的方式</h3><p>1、链地址法（拉链法）<br>当存储位置中产生冲突的时候，在冲突的位置中插入链表或者数组，往该链表或者数组中插入冲突的元素<br><img src="/../img/%E9%93%BE%E5%9C%B0%E5%9D%80%E6%B3%95.png" alt="图解" title="拉链法"></p>
+<p>2、开放地址法</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+      
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
   
     <article id="post-双向链表" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -325,7 +385,7 @@
   <div class="outer">
     <div id="footer-info">
       <div class="footer-left">
-        &copy; 2022 John Doe
+        &copy; 2022 luhuaqin
       </div>
         <div class="footer-right">
           <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/smackgg/hexo-theme-smackdown" target="_blank">Smackdown</a>
